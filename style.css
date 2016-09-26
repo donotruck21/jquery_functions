@@ -1,0 +1,81 @@
+.container{
+	/*border: 1px dotted black;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.section{
+	width:1100px;
+	height: 170px;
+	margin-left: 20px;
+	background-color: #EAEAEA;
+	border-radius: 5px;
+}
+
+.val_section{
+	width:1100px;
+	height: 200px;
+	margin-left: 20px;
+	background-color: #EAEAEA;
+	border-radius: 5px;
+}
+
+.attr_section{
+	width:1100px;
+	height: 250px;
+	margin-left: 20px;
+	background-color: #EAEAEA;
+	border-radius: 5px;
+}
+
+h2{
+	text-align: center;
+	background-color: #B6B5B5;
+	border-radius: 5px 5px 0px 0px;
+	margin-top: 0;
+}
+
+.button_area{
+	display: inline-block;
+	height: 50px;
+	width: 300px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.description{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+	width: 600px;
+}
+
+.makebold{
+	font-weight: 800;
+}
+
+#attr_button_paragraph{
+	display: inline-block;
+}
+
+#attr_p{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.makered{
+	color: red;
+}
+
+.subtext{
+	font-size: .7em;
+	margin-top: 22px;
+}
+
+#val_span{
+	font-size: .8em;
+	color: gray;
+	margin-left: 10px;
+}
