@@ -13,69 +13,69 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('#hide').click(function(){
-				$('#hideshow_paragraph').hide()
+				$('#hideshow-paragraph').hide()
 			})
 			$('#show').click(function(){
-				$('#hideshow_paragraph').show()
+				$('#hideshow-paragraph').show()
 			})
 			$('#toggle').click(function(){
-				$('#toggle_paragraph').toggle()
+				$('#toggle-paragraph').toggle()
 			})
 			$('#slideDown').click(function(){
-				$('#slide_paragraph').slideDown()
+				$('#slide-paragraph').slideDown()
 			})
 			$('#slideUp').click(function(){
-				$('#slide_paragraph').slideUp()
+				$('#slide-paragraph').slideUp()
 			})
 			$('#slidetoggle').click(function(){
-				$('#slide_toggle_paragraph').slideToggle()
+				$('#slide-toggle-paragraph').slideToggle()
 			})
 			$('#fadeOut').click(function(){
-				$('#fade_paragraph').fadeOut()
+				$('#fade-paragraph').fadeOut()
 			})
 			$('#fadeIn').click(function(){
-				$('#fade_paragraph').fadeIn()
+				$('#fade-paragraph').fadeIn()
 			})
 			$('#addClass').click(function(){
-				$('#addclass_paragraph').addClass("makebold makered")
+				$('#addclass-paragraph').addClass("make-bold make-red")
 			})
 			$('#removeClass').click(function(){
-				$('#addclass_paragraph').removeClass("makebold makered")
+				$('#addclass-paragraph').removeClass("make-bold make-red")
 			})
-			$('#css_button').click(function(){
+			$('#css-button').click(function(){
 				$("h2").css("color", "blue")
 			})
-			$('#after_button').click(function(){
-				$("#after_button_paragraph").after("<p>You did it!</p>")
+			$('#after-button').click(function(){
+				$("#after-button-paragraph").after("<p>You did it!</p>")
 			})
-			$('#before_button').click(function(){
-				$("#before_button_paragraph").before("<p>You did it!</p>")
+			$('#before-button').click(function(){
+				$("#before-button-paragraph").before("<p>You did it!</p>")
 			})
-			$('#append_button').click(function(){
-				$("#append_button_paragraph").append("<p>You did it!</p>")
+			$('#append-button').click(function(){
+				$("#append-button-paragraph").append("<p>You did it!</p>")
 			})
-			$('#attr_button').click(function(){
-				$("#attr_button_paragraph").attr("<p>You did it!</p>")
+			$('#attr-button').click(function(){
+				$("#attr-button-paragraph").attr("<p>You did it!</p>")
 			})
-			$("#attr_image").hover(function(){
-				var attr = $("#attr_image").attr("alt")
-				$("#attr_p").text(attr)
+			$("#attr-image").hover(function(){
+				var attr = $("#attr-image").attr("alt")
+				$("#attr-p").text(attr)
 			})
-			$('#html_button').click(function(){
-				$("#html_h2").html("You did it!")
+			$('#html-button').click(function(){
+				$("#html-h2").html("You did it!")
 			})
-			$('#text_button').click(function(){
-				$("#text_button_paragraph").text("You did it!")
+			$('#text-button').click(function(){
+				$("#text-button-paragraph").text("You did it!")
 			})
-			$('#val_button').click(function(){
-				var text = $("#text_box").val();
-				$("#val_button_paragraph").text(text)
+			$('#val-button').click(function(){
+				var text = $("#text-box").val();
+				$("#val-button-paragraph").text(text)
 			})
-			$("#text_box").focusin(function(){
-				$("#val_span").html("Enter Any Text!")
+			$("#text-box").focusin(function(){
+				$("#val-span").html("Enter Any Text!")
 			})
-			$("#text_box").focusout(function(){
-				$("#val_span").html("")
+			$("#text-box").focusout(function(){
+				$("#val-span").html("")
 			})
 		});
 	</script>
@@ -88,147 +88,147 @@
 		</div>
 		<div class="section">
 			<h2>.hide/.show</h2>
-			<div class="button_area">
+			<div class="button-area">
 				<button id="hide" class="btn btn-info">.hide</button>
 				<button id="show" class="btn btn-info">.show</button>
 			</div>
 			<div class="description">
-				<p id='hideshow_paragraph'>Click the ".hide" button to hide this paragraph! Click the ".show" button to make it reappear!</p>
+				<p id='hideshow-paragraph'>Click the ".hide" button to hide this paragraph! Click the ".show" button to make it reappear!</p>
 			</div>
 		</div>
 		<hr>
 		<div class="section">
 			<h2>.toggle</h2>
-			<div class="button_area">
+			<div class="button-area">
 				<button id="toggle" class="btn btn-info">.toggle</button>
 			</div>
 			<div class="description">
-				<p id='toggle_paragraph'>Click the ".toggle" button to toggle between the .hide and .show functions! Click once to make the text disappear, and click again to make it reappear!</p>
+				<p id='toggle-paragraph'>Click the ".toggle" button to toggle between the .hide and .show functions! Click once to make the text disappear, and click again to make it reappear!</p>
 			</div>
 		</div>
 		<hr>
 		<div class="section">
 			<h2>.slideDown/.slideUp</h2>
-			<div class="button_area">
+			<div class="button-area">
 				<button id="slideUp" class="btn btn-info">.slideUp</button>
 				<button id="slideDown" class="btn btn-info">.slideDown</button>
 			</div>
 			<div class="description">
-				<p id='slide_paragraph'>The .slideUp and .slideDown functions work exactly like the .hide and .show functions, except with a cool sliding feature! Check it out!</p>
+				<p id='slide-paragraph'>The .slideUp and .slideDown functions work exactly like the .hide and .show functions, except with a cool sliding feature! Check it out!</p>
 			</div>
 		</div>
 		<hr>
 		<div class="section">
 			<h2>.slideToggle</h2>
-			<div class="button_area">
+			<div class="button-area">
 				<button id="slidetoggle" class="btn btn-info">.slideToggle</button>
 			</div>
 			<div class="description">
-				<p id='slide_toggle_paragraph'>The .slideToggle function works exactly like the .toggle function, except with a cool sliding feature! Check it out!</p>
+				<p id='slide-toggle-paragraph'>The .slideToggle function works exactly like the .toggle function, except with a cool sliding feature! Check it out!</p>
 			</div>
 		</div>
 		<hr>
 		<div class="section">
 			<h2>.fadeOut/.fadeIn</h2>
-			<div class="button_area">
+			<div class="button-area">
 				<button id="fadeOut" class="btn btn-info">.fadeOut</button>
 				<button id="fadeIn" class="btn btn-info">.fadeIn</button>
 			</div>
 			<div class="description">
-				<p id='fade_paragraph'>The .fadeOut and .fadeIn functions work exactly like the .hide and .show functions, except with a cool fading feature! Check it out!</p>
+				<p id='fade-paragraph'>The .fadeOut and .fadeIn functions work exactly like the .hide and .show functions, except with a cool fading feature! Check it out!</p>
 			</div>
 		</div>
 		<hr>
 		<div class="section">
 			<h2>.addClass</h2>
-			<div class="button_area">
+			<div class="button-area">
 				<button id="addClass" class="btn btn-info">.addClass</button>
 				<button id="removeClass" class="btn btn-info">.removeClass</button>
 			</div>
 			<div class="description">
-				<p id='addclass_paragraph'> The .addClass jQuery funtion will add specified class(es) to each matched element. You can add multiple classes at a time. Click on the ".addClass" button to add class "red" and class "bold" to the text! Click on the ".removeClass" button to return text to default color black.</p>
+				<p id='addclass-paragraph'> The .addClass jQuery funtion will add specified class(es) to each matched element. You can add multiple classes at a time. Click on the ".addClass" button to add class "red" and class "bold" to the text! Click on the ".removeClass" button to return text to default color black.</p>
 			</div>
 		</div>
 		<hr>
 		<div class="section">
 			<h2>.css</h2>
-			<div class="button_area">
-				<button id="css_button" class="btn btn-info">.css</button>
+			<div class="button-area">
+				<button id="css-button" class="btn btn-info">.css</button>
 			</div>
 			<div class="description">
-				<p id='css_button_paragraph'>The .css jQuery function will set the one or more properties for any matched elements. Click on the ".css" button to set all of the h2 headings on this page to blue!</p>
+				<p id='css-button-paragraph'>The .css jQuery function will set the one or more properties for any matched elements. Click on the ".css" button to set all of the h2 headings on this page to blue!</p>
 			</div>
 		</div>
 		<hr>
 		<div class="section">
 			<h2>.after</h2>
-			<div class="button_area">
-				<button id="after_button" class="btn btn-info">.after</button>
+			<div class="button-area">
+				<button id="after-button" class="btn btn-info">.after</button>
 			</div>
 			<div class="description">
-				<p id='after_button_paragraph'>The .after jQuery function is a manipulation that inserts content after each element in the set of matched elements. Click on the ".after" button to insert another another paragraph element after this paragraph! </p>
+				<p id='after-button-paragraph'>The .after jQuery function is a manipulation that inserts content after each element in the set of matched elements. Click on the ".after" button to insert another another paragraph element after this paragraph! </p>
 			</div>
 		</div>
 		<hr>
 		<div class="section">
 			<h2>.before</h2>
-			<div class="button_area">
-				<button id="before_button" class="btn btn-info">.before</button>
+			<div class="button-area">
+				<button id="before-button" class="btn btn-info">.before</button>
 			</div>
 			<div class="description">
-				<p id='before_button_paragraph'>The .before jQuery function is a manipulation that inserts content before each element in the set of matched elements. Click on the ".before" button to insert another another paragraph element before this paragraph! </p>
+				<p id='before-button-paragraph'>The .before jQuery function is a manipulation that inserts content before each element in the set of matched elements. Click on the ".before" button to insert another another paragraph element before this paragraph! </p>
 			</div>
 		</div>
 		<hr>
 		<div class="section">
 			<h2>.append</h2>
-			<div class="button_area">
-				<button id="append_button" class="btn btn-info">.append</button>
+			<div class="button-area">
+				<button id="append-button" class="btn btn-info">.append</button>
 			</div>
 			<div class="description">
-				<p id='append_button_paragraph'>The .append jQuery function is a manipulation that inserts content to the end of each element in the set of matched elements. Click on the ".append" button to insert another another paragraph element at the end of this paragraph! </p>
+				<p id='append-button-paragraph'>The .append jQuery function is a manipulation that inserts content to the end of each element in the set of matched elements. Click on the ".append" button to insert another another paragraph element at the end of this paragraph! </p>
 			</div>
 		</div>
 		<hr>
-		<div class="attr_section">
+		<div class="attr-section">
 			<h2>.attr</h2>
-			<div class="button_area" class="btn btn-info">
-				<button id="attr_button" class="btn btn-info">.attr</button>
+			<div class="button-area" class="btn btn-info">
+				<button id="attr-button" class="btn btn-info">.attr</button>
 			</div>
 			<div class="description">
-				<p id='attr_button_paragraph'>The .attr jQuery function gets the value of an attribute for a matched element. Hover over the image to see the "alt" attribute.</p><img id="attr_image" src="https://images.unsplash.com/photo-1415912364061-78a25859c0fa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=76b35becb8a64dc6e3fa580671002486" alt="squirrel_picture" height=120>
-				<p id="attr_p"></p>
+				<p id='attr-button-paragraph'>The .attr jQuery function gets the value of an attribute for a matched element. Hover over the image to see the "alt" attribute.</p><img id="attr-image" src="https://images.unsplash.com/photo-1415912364061-78a25859c0fa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=76b35becb8a64dc6e3fa580671002486" alt="squirrel-picture" height=120>
+				<p id="attr-p"></p>
 			</div>
 		</div>
 		<hr>
 		<div class="section">
-			<h2 id="html_h2">.html</h2>
-			<div class="button_area" class="btn btn-info">
-				<button id="html_button" class="btn btn-info">.html</button>
+			<h2 id="html-h2">.html</h2>
+			<div class="button-area" class="btn btn-info">
+				<button id="html-button" class="btn btn-info">.html</button>
 			</div>
 			<div class="description">
-				<p id='html_button_paragraph'>The .html jQuery function is a manipulation that sets the HTML contents of each element in the set of matched elements</p>
+				<p id='html-button-paragraph'>The .html jQuery function is a manipulation that sets the HTML contents of each element in the set of matched elements</p>
 			</div>
 		</div>
 		<hr>
 		<div class="section">
 			<h2>.text</h2>
-			<div class="button_area">
-				<button id="text_button" class="btn btn-info">.text</button>
+			<div class="button-area">
+				<button id="text-button" class="btn btn-info">.text</button>
 			</div>
 			<div class="description">
-				<p id='text_button_paragraph'>The .text jQuery function can work as a getter or as a setter. In most cases, you will be using the .text function as a setter. Click on the ".text" button to set this text to a specified text!</p>
+				<p id='text-button-paragraph'>The .text jQuery function can work as a getter or as a setter. In most cases, you will be using the .text function as a setter. Click on the ".text" button to set this text to a specified text!</p>
 			</div>
 		</div>
 		<hr>
-		<div class="val_section">
-			<h2 id=".val_h2">.val</h2>
-			<div class="button_area">
-				<button id="val_button" class="btn btn-info">.val</button>
+		<div class="val-section">
+			<h2 id=".val-h2">.val</h2>
+			<div class="button-area">
+				<button id="val-button" class="btn btn-info">.val</button>
 			</div>
 			<div class="description">
-				<input type="text" id="text_box"><span id="val_span"></span>
-				<p id='val_button_paragraph'>The .val jQuery function also can work as a getter or a setter. In this case, we are going to use it as a setter. The .val function will get the current value of the first element in the set of matched elements. Type something into the input box and click ".val" to return the same value.</p>
+				<input type="text" id="text-box"><span id="val-span"></span>
+				<p id='val-button-paragraph'>The .val jQuery function also can work as a getter or a setter. In this case, we are going to use it as a setter. The .val function will get the current value of the first element in the set of matched elements. Type something into the input box and click ".val" to return the same value.</p>
 				<p class="subtext">*Notice the text that appears when you click into the text box! The .focusin/.focusout event handlers allow text to appear and disappear as you enter and leave the text box!</p>
 			</div>
 		</div>

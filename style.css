@@ -12,7 +12,7 @@
 	border-radius: 5px;
 }
 
-.val_section{
+.val-section{
 	width:1100px;
 	height: 200px;
 	margin-left: 20px;
@@ -20,7 +20,7 @@
 	border-radius: 5px;
 }
 
-.attr_section{
+.attr-section{
 	width:1100px;
 	height: 250px;
 	margin-left: 20px;
@@ -35,7 +35,7 @@ h2{
 	margin-top: 0;
 }
 
-.button_area{
+.button-area{
 	display: inline-block;
 	height: 50px;
 	width: 300px;
@@ -50,22 +50,22 @@ h2{
 	width: 600px;
 }
 
-.makebold{
+.make-bold{
 	font-weight: 800;
 }
 
-#attr_button_paragraph{
+#attr-button-paragraph{
 	display: inline-block;
 }
 
-#attr_p{
+#attr-p{
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 20px;
 	margin-top: 20px;
 }
 
-.makered{
+.make-red{
 	color: red;
 }
 
@@ -74,7 +74,7 @@ h2{
 	margin-top: 22px;
 }
 
-#val_span{
+#val-span{
 	font-size: .8em;
 	color: gray;
 	margin-left: 10px;
